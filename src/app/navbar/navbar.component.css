@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'scaryFont';
+  src: url('../../assets/fonts/bernie.ttf')
+       format('trueType');
+
+}
+
+.navbar-header {
+
+
+
+}
+
+.lightmare-title {
+  background-color: orange;
+}
+
+.scary {
+  font-family: 'scaryFont';
+  font-size: 30px;
+  color: black;
+
+}
+
+.lightmare-nav {
+
+  background-color: purple;
+
+}
