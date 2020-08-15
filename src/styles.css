@@ -12,11 +12,7 @@
        format('trueType');
 
 }
-.navbar-header {
 
-
-
-}
 
 .lightmare-title {
   background-color: orange;
@@ -41,17 +37,9 @@
   color: black;
 }
 
-.lightmare-nav {
-
-  background-color: purple;
-
-}
 
 
-body {
-  font-family: "Montserrat";
-  text-align: center;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
@@ -78,6 +66,7 @@ p {
 
 .container-fluid{
   padding: 7% 15%;
+  display:flex;
 }
 
 /* Sections */
@@ -91,28 +80,7 @@ p {
   background-color: #fff;
 }
 
-/* Navigation Bar */
 
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2rem;
-  font-weight: bold;
-  color: black;
-
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
 
 /* Buttons */
 
@@ -122,10 +90,7 @@ p {
 
 /* Title Section */
 
-#title {
-  color: #fff;
-  text-align: left;
-}
+
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -237,9 +202,39 @@ p {
   margin-right: auto;
 }
 
-.holiday {
-  width:80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+.mapouter {
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:600px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+
+#gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:500px;
+  width:600px;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
