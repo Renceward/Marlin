@@ -1,0 +1,14 @@
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+    margin-top: 100px;
+  }
+
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  

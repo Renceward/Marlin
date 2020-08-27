@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lightmare"
+    }
+  },
+  "defaultProject": "lightmare",
+  "cli": {
+    "analytics": "2bd1b5e9-a29d-4614-8ae6-538cd27169a7"
+  }
 }
