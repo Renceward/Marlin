@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-holidays',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./holidays.component.css']
 })
 export class HolidaysComponent implements OnInit {
-
+  @Input() sectionType: string;
   constructor() { }
 
   ngOnInit(): void {

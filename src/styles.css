@@ -42,24 +42,32 @@
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+  font-family: "Luckiest Guy";
 }
 
 p {
   color: #8f8f8f;
 }
 
-/* Headings */
-
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
+.big-header {
+  font-family: "Luckiest Guy";
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
+.second-header {
+  font-family: "Luckiest Guy";
+  color: white;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.body-text {
+  font-family: "Faustina";
+  color: white;
+  font-size: 20px;
 }
 
 /* Containers */
@@ -71,22 +79,18 @@ p {
 
 /* Sections */
 
-.colored-section {
+.colored-bg {
   background-color: #3CCB34;
   color: #fff;
 }
 
-.white-section {
+.white-bg {
   background-color: #fff;
 }
 
 
 
-/* Buttons */
 
-.download-button {
-  margin: 5% 3% 5% 0;
-}
 
 
 
