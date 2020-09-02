@@ -70,6 +70,13 @@ p {
   font-size: 20px;
 }
 
+.body-text-whit-bg {
+  font-family: "Faustina";
+  color: green;
+  font-size: 20px;
+}
+
+
 /* Containers */
 
 .container-fluid{
