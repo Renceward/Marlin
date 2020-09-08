@@ -1,17 +1,15 @@
-
 /* Features Section */
 
 #holidays {
-    position: relative;
-  }
-  
-  .holiday-title {
-    font-size: 3.5rem;
-    text-align: center;
-    color: green;
-  }
-  
-  .holiday-box {
-    padding: 4.5%;
-  }
-  
+  position: relative;
+}
+
+.holiday-title {
+  font-size: 3.5rem;
+  text-align: center;
+  color: green;
+}
+
+.holiday-box {
+  padding: 4.5%;
+}

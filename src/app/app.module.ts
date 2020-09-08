@@ -8,8 +8,6 @@ import { HolidaysComponent } from './holidays/holidays.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { LocationComponent } from './location/location.component';
 import { FooterComponent } from './footer/footer.component';
-import { ChristmasHolidayComponent } from './holidays/christmas-holiday/christmas-holiday.component';
-import { HalloweenHolidayComponent } from './holidays/halloween-holiday/halloween-holiday.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
@@ -21,8 +19,6 @@ import { GalleryComponent } from './gallery/gallery.component';
     ScheduleComponent,
     LocationComponent,
     FooterComponent,
-    ChristmasHolidayComponent,
-    HalloweenHolidayComponent,
     GalleryComponent
   ],
   imports: [

@@ -6,10 +6,17 @@
   position: absolute;
   left: 30%;
   top: 20%;
-    border-radius: 8px;
-  }
+  border-radius: 8px;
+}
 
-  #title .container-fluid {
-    padding: 3% 15% 7%;
-  }
-  
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-card {
+  min-height: 300px;
+}
+
+.title-text {
+  min-height: 300px;
+}
