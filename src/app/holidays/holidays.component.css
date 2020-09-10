@@ -4,6 +4,13 @@
   position: relative;
 }
 
+.holiday {
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .holiday-title {
   font-size: 3.5rem;
   text-align: center;

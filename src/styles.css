@@ -1,47 +1,12 @@
+/* Global styles
+------------------------------------*/
 
-@font-face {
-  font-family: 'scaryFont';
-  src: url('./assets/fonts/bernie.ttf')
-       format('trueType');
-
-}
-
-@font-face {
-  font-family: 'merryFont';
-  src: url('./assets/fonts/ChristmasScriptC.ttf')
-       format('trueType');
-
-}
-
-
-.lightmare-title {
-  background-color: orange;
-}
-
-.scary {
-  font-family: 'scaryFont';
-  font-size: 30px;
-  color: black;
-
-}
-
-.merry {
-  font-family: 'merryFont';
-  font-size: 30px;
-  color: black;
-
-}
-
-.before {
-  font-size: 20px;
-  color: black;
-}
-
-
-
-
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Luckiest Guy";
 }
 
@@ -61,7 +26,6 @@ p {
   color: white;
   font-size: 25px;
   text-align: center;
-
 }
 
 .body-text {
@@ -76,129 +40,20 @@ p {
   font-size: 20px;
 }
 
-
 /* Containers */
 
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
-  display:flex;
+  display: flex;
 }
 
 /* Sections */
 
 .colored-bg {
-  background-color: #3CCB34;
+  background-color: #3ccb34;
   color: #fff;
 }
 
 .white-bg {
   background-color: #fff;
-}
-
-
-
-
-
-
-
-
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
-
-
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-
-/* CTA Section */
-
-
-/* Footer Section */
-
-
-
-
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
-.holiday {
-  width:80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.mapouter {
-  position:relative;
-  text-align:right;
-  height:500px;
-  width:600px;
-}
-
-.gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:500px;
-  width:600px;
-}
-
-#gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:500px;
-  width:600px;
-}
-
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:500px;
-  width:600px;
-}
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
 }
