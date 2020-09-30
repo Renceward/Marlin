@@ -9,6 +9,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { LocationComponent } from './location/location.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ViewingInfoComponent } from './viewing-info/viewing-info.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     ScheduleComponent,
     LocationComponent,
     FooterComponent,
-    GalleryComponent
+    GalleryComponent,
+    ViewingInfoComponent
   ],
   imports: [
     BrowserModule
