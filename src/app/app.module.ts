@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { TitleComponent } from './title/title.component';
@@ -10,6 +11,8 @@ import { LocationComponent } from './location/location.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ViewingInfoComponent } from './viewing-info/viewing-info.component';
+import { Location2Component } from './location2/location2.component';
+
 
 @NgModule({
   declarations: [
@@ -21,10 +24,14 @@ import { ViewingInfoComponent } from './viewing-info/viewing-info.component';
     LocationComponent,
     FooterComponent,
     GalleryComponent,
-    ViewingInfoComponent
+    ViewingInfoComponent,
+    Location2Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBfAmwxGLr-_KCqQMAqzX75M1OwYAjFUHg',
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
